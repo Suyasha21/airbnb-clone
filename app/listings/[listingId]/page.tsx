@@ -1,4 +1,3 @@
-//This is a server component so we cannot use hooks in this but we need to use sth that directly is connected to the database
 
 
 import getCurrentUser from "@/app/actions/getCurrentUser";
