@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import getCurrentUser from "./actions/getCurrentUser";
 import getListings, { IListingsParams } from "./actions/getListings";
 import ListingCard from "./components/listings/ListingCard";
@@ -20,7 +21,7 @@ const Home = async({searchParams}: HomeProps)=>{
             </ClientOnly>
         )
     }
-    // throw new Error('Something went wrong');
+   
     return(
         <ClientOnly>
             <Container>
