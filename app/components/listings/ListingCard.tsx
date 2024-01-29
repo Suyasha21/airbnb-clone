@@ -67,7 +67,7 @@ return data.price;
             overflow-hidden
             rounded-xl
             ">
-                //zoom in effect 
+              
                 <Image
                 fill
                 alt="Listing"
