@@ -57,7 +57,7 @@ const RentModal = () => {
     const location= watch('location');
     const Map = useMemo(()=>dynamic(()=>import('../Map'),{
         ssr:false
-    }),[location]);
+    }),[]);
     const category= watch('category');
     const setCustomValue=(id:string, value:any)=>{
         setValue(id, value, {

@@ -27,11 +27,11 @@ export async function DELETE(
             id:reservationId,
             OR:[
                 {
-                    //me 
+                   
                     userId: currentUser.id
                 },
                 {
-                    //owner 
+                  
                     listing:{userId:currentUser.id}
                 }
             ]

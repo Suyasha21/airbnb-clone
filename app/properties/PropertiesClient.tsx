@@ -32,7 +32,7 @@ const PropertiesClient:React.FC<PropertiesClientProps>= ({
        .finally(()=>{
         setDeletingId('');
        });
-    },[]);
+    },[router]);
 
 
   return (
